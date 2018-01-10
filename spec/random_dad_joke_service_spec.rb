@@ -10,7 +10,7 @@ describe RandomDadJokeService do
     expect(@random_dad_joke.get_data).to be_kind_of(Hash)
   end
 
-  it "the hash should have three keys" do
+  it "should have three keys in the hash" do
     expect(@random_dad_joke.get_data.length).to eq(3)
   end
 
